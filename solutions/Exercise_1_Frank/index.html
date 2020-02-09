@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head></head>
+<!-- <script src="https://npmcdn.com/vue/dist/vue.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<html>
+
+<body>
+
+    <div id="exercise">
+        <!-- 1) Fill the <p> below with your Name and Age - using Interpolation -->
+        <p>VueJS is pretty cool - {{ myName }} {{ age }}</p>
+        <!-- 2) Output your age, multiplied by 3 -->
+        <p>{{ ageTripled() }}</p>
+        <!-- 3) Call a function to output a random float between 0 and 1 (Math.random()) -->
+        <p>{{ randomBetweenZeroAndOne() }}</p>
+        <!-- 4) Search any image on Google and output it here by binding the "src" attribute -->
+        <div>
+            <img style="width:100px;height:100px" v-bind:src="imageLink">
+        </div>
+        <!-- 5) Pre-Populate this input with your name (set the "value" attribute) -->
+        <div>
+            <input type="text" v-bind:value="myName" />
+        </div>
+    </div>
+    <script>
+        new Vue({
+            el: '#exercise',
+            data: {
+                myName: 'Frank Pröhl',
+                age: '46',
+                imageLink: 'https://s14-eu5.startpage.com/cgi-bin/serveimage?url=https%3A%2F%2Ffutter.kleinezeitung.at%2Fwp-content%2Fuploads%2F2019%2F11%2FRickMorty-775x585.jpg&sp=c9104bf2590fab36ce5a6960b1c98e4d&anticache=243438',
+            },
+            methods: {
+                ageTripled: function() {
+                    return this.age * 3;
+                },
+                randomBetweenZeroAndOne: function() {
+                    return Math.random()
+                },
+            }
+        });
+    </script>
+</body>
+
+</html>
