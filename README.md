@@ -1,13 +1,16 @@
-# Commit linting powered by
-* [husky](https://github.com/typicode/husky), [commitlint](https://github.com/conventional-changelog/commitlint/#what-is-commitlint) and [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
-
+# This repository supports commit linting and standardization by using the following projects.
+* [husky](https://github.com/typicode/husky)
+* [commitizen](https://github.com/commitizen/cz-cli)
+* [commitlint](https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
+* [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 ## Prerequisites
 * NodeJS >= 10.x
----
-## Install
-* run in a terminal `"npm install"`
-
----
+## Setup
+* clone the project
+* cd into the project
+* run in a terminal `npm install`
+## Usage
+* just run `git commit` and then you will be prompet by a dynmic dialog which supports  you writing a commit message.
 ## Progress
 | Assignment| Frank | Matthias |
 | - | - | - |
