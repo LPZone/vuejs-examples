@@ -12,7 +12,7 @@
 ## Usage
 * just run `git commit` and then you will be prompet by a dynmic dialog which supports  you writing a commit message.
 ## Progress
-| Assignment| Frank | Matthias |
+| Assignment| Frank | Mathias |
 | - | - | - |
 | Assignment 1 | [x] | [x] |
 | Assignment 2 | [x] | [x] |
