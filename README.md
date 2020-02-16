@@ -10,7 +10,7 @@
 * cd into the project
 * run in a terminal `npm install`
 ## Usage
-* just run `git commit` and then you will be prompet by a dynmic dialog which supports  you writing a commit message.
+* just run `git commit` and then you will be prompted by a dynamic dialog which supports you writing a commit message.
 ## Progress
 | Assignment| Frank | Mathias |
 | - | - | - |
