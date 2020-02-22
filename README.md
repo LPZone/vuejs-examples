@@ -17,7 +17,7 @@
 | Assignment 1 | [x] | [x] |
 | Assignment 2 | [x] | [x] |
 | Assignment 3 | [x] | [-] |
-| Assignment 4 | [-] | [-] |
+| Assignment 4 | [x] | [-] |
 | Assignment 5 | [-] | [-] |
 | Assignment 6 | [-] | [-] |
 | Assignment 7 | [-] | [-] |
